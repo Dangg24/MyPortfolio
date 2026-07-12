@@ -1,0 +1,182 @@
+body {
+    color: black;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+/* First-container */
+.first-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #778873;
+}
+
+.first-image {
+    height: 400px;
+    width: 400px;
+    margin-left: 25px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 5px solid whitesmoke;
+}
+
+.title-text {
+    color: whitesmoke;
+}
+
+h1 {
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 4rem;
+    text-align: left;
+}
+
+.title-text > h2 {
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: left;
+}
+
+/* Second-container */
+.second-container {
+    margin-top: 50px;
+    display: block;
+    background-color: #FDF6ED;
+    color: #556B5D;
+    margin: 0;
+}
+
+.second-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.Profile > h2 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 95.2;
+    font-size: 3rem;
+}
+
+.profile-text {
+    font-size: 2rem;
+}
+
+hr {
+    border: dotted #556B5D 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+
+.skill-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 50px;
+}
+
+.three-image {
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.container {
+    text-align: left;
+}
+
+.four-image {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;  
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.Skill > h2 {
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.ContactMe {
+    padding-bottom: 50px;
+}
+
+.ContactMe > h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.ContactMe > p {
+    margin-bottom: 15px;
+}
+
+.contactBtn {
+    margin-top: 45px;
+}
+
+.contact {
+    background-color: #6E7F68;
+    color: #FFFFFF;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+/* Third-container */
+.third-container {
+    background-color: #556B5D;
+    color: whitesmoke;
+    padding: 50px 0 20px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .first-image {
+        width: 300px;
+        height: 300px;
+    }
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .title-text > h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .skill-image {
+        margin-right: 20px;
+    }
+}
